@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mybudgetmanager.mybudget">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Budgeting.App"
+        tools:replace="android:icon">
+        <activity android:name=".settings.target.TargetActivity" />
+        <activity android:name=".settings.TemplatesActivity" />
+        <activity android:name=".settings.ContactActivity" />
+        <activity android:name=".settings.ConverterActivity" />
+        <activity android:name=".settings.CurrencyActivity" />
+        <activity android:name=".main.AddTransactionActivity" />
+        <activity android:name=".settings.balances.AddBalanceActivity" />
+        <activity android:name=".settings.balances.BalancesActivity" />
+        <activity android:name=".settings.categories.AddCategoryActivity" />
+        <activity android:name=".settings.categories.CategoriesActivity" />
+        <activity android:name=".settings.SettingsActivity" />
+        <activity
+            android:name=".main.MainActivity"
+            android:launchMode="singleInstance"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".authentication.LoginActivity" />
+        <activity android:name=".authentication.RegisterActivity" />
+        <activity
+            android:name=".main.SplashActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="com.allyants.notifyme.NotificationPublisher" />
+        <receiver android:name="com.allyants.notifyme.BootNotifyMe"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

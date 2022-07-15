@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingLeft="36sp"
+    android:paddingRight="16sp"
+    android:paddingBottom="8sp">
+
+    <TextView
+        android:id="@+id/row_item_transaction_expand_property"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center"
+        android:textAlignment="viewStart"
+        android:textSize="16sp" />
+</LinearLayout>

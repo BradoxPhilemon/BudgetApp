@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settings.SettingsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/settings_back"
+            style="@style/image_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16sp"
+            app:cardCornerRadius="16sp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="16sp">
+
+                <TextView
+                    android:id="@+id/account_name"
+                    style="@style/settings_card_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/placeholder_name" />
+
+                <TextView
+                    android:id="@+id/account_email"
+                    style="@style/settings_card_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/placeholder_email" />
+
+                <TextView
+                    android:id="@+id/account_currency"
+                    style="@style/settings_card_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/placeholder_currency" />
+
+                <TextView
+                    android:id="@+id/account_streak"
+                    style="@style/settings_card_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/placeholder_streak" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/settings_balances"
+            style="@style/settings_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|center"
+            android:text="@string/settings_balances"
+            android:textAlignment="textStart" />
+
+        <Button
+            android:id="@+id/settings_categories"
+            style="@style/settings_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|center"
+            android:text="@string/settings_categories"
+            android:textAlignment="textStart" />
+
+        <Button
+            android:id="@+id/settings_target"
+            style="@style/settings_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|center"
+            android:text="@string/target"
+            android:textAlignment="textStart" />
+        <Button
+            android:id="@+id/settings_templates"
+            style="@style/settings_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|center"
+            android:text="@string/settings_templates"
+            android:textAlignment="textStart" />
+
+        <Button
+            android:id="@+id/settings_currency"
+            style="@style/settings_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|center"
+            android:text="@string/settings_currency"
+            android:textAlignment="textStart" />
+
+        <Button
+            android:id="@+id/settings_converter"
+            style="@style/settings_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|center"
+            android:text="@string/settings_converter"
+            android:textAlignment="textStart" />
+
+        <Button
+            android:id="@+id/settings_theme"
+            style="@style/settings_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|center"
+            android:text="@string/settings_theme"
+            android:textAlignment="textStart" />
+
+        <Button
+            android:id="@+id/settings_language"
+            style="@style/settings_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|center"
+            android:text="@string/settings_language"
+            android:textAlignment="textStart" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/settings_reminders"
+                style="@style/settings_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:focusable="false"
+                android:gravity="start|center"
+                android:text="@string/settings_reminders"
+                android:textAlignment="textStart"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/settings_switch_reminders"
+                style="@style/settings_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="end"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <Button
+            android:id="@+id/settings_contact"
+            style="@style/settings_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:text="@string/settings_contact"
+            android:textAlignment="textStart" />
+
+        <Button
+            android:id="@+id/settings_sign_out"
+            style="@style/settings_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:text="@string/settings_sign_out"
+            android:textAlignment="textStart" />
+    </LinearLayout>
+</ScrollView>

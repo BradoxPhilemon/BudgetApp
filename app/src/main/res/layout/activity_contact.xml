@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="16sp"
+    android:orientation="vertical"
+    tools:context=".settings.ContactActivity">
+
+    <ImageButton
+
+        android:id="@+id/contact_mail"
+        style="@style/image_button"
+        android:layout_width="match_parent"
+        android:layout_height="75sp"
+        android:layout_margin="15sp"
+        android:scaleType="centerInside"
+        android:src="@drawable/gmail"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/contact_github"
+        style="@style/image_button"
+        android:layout_width="match_parent"
+        android:layout_height="75sp"
+        android:layout_margin="15sp"
+        android:scaleType="centerInside"
+        android:src="@drawable/github"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/contact_linkedin"
+        style="@style/image_button"
+        android:layout_width="match_parent"
+        android:layout_height="75sp"
+        android:layout_margin="15sp"
+        android:scaleType="centerInside"
+        android:src="@drawable/linkedin"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    </LinearLayout>

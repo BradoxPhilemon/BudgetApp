@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">Budget App</string>
+    <string name="app_motto">Budgeting done right.</string>
+
+    <string name="placeholder_name">placeholder_name</string>
+    <string name="placeholder_email">placeholder_email</string>
+    <string name="placeholder_currency">placeholder_currency</string>
+    <string name="placeholder_streak">placeholder_streak</string>
+    <string name="placeholder_date">placeholder_date</string>
+    <string name="placeholder_category">placeholder_category</string>
+    <string name="placeholder_details">placeholder_details</string>
+    <string name="placeholder_total_balance">placeholder_total_balance</string>
+    <string name="placeholder_balance">placeholder_balance</string>
+    <string name="placeholder_amount">placeholder_amount</string>
+
+    <string name="ok">Ok</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="search">Search</string>
+    <string name="save">Save</string>
+    <string name="save_transaction">Save transaction</string>
+    <string name="save_template">Save template</string>
+
+    <string name="expense">Expense</string>
+    <string name="income">Income</string>
+    <string name="transfer">Transfer</string>
+
+
+    <!--    Authentication-->
+    <string name="name">Name</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create account</string>
+    <string name="register_with_google">Register with Google</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="redirect_to_register">Don\'t have an account yet? Register now.</string>
+    <string name="redirect_to_login">Already have an account? Log in.</string>
+
+    <!--    Main-->
+    <string name="tab_day">Day</string>
+    <string name="tab_month">Month</string>
+    <string name="tab_year">Year</string>
+    <string name="tab_total">Total</string>
+
+    <!--    Transactions-->
+    <string name="add_transaction_amount">Amount</string>
+    <string name="add_transaction_details">Details (optional)</string>
+    <string name="today">Today</string>
+    <string name="error_invalid_account">Invalid account.</string>
+    <string name="add_transaction_spinner_prompt_categories">Categories</string>
+    <string name="add_transaction_spinner_prompt_balance_from">Balance from</string>
+    <string name="add_transaction_spinner_prompt_balance_to">Balance to</string>
+
+    <!--    Dates-->
+    <string name="date_format_dd_mm_yyyy">$d/$d/%d</string>
+    <string name="date_format_dd_month_yyyy">%d %s %d</string>
+    <string name="date_format_month_yyyy">%s %d</string>
+    <string name="date_format_year_yyyy">Year %d</string>
+
+    <!--    Settings-->
+    <string name="settings_account_currency">Currency: %s</string>
+    <string name="settings_account_streak">%d streak day(s)</string>
+    <string name="settings_balances">Balances</string>
+    <string name="settings_templates">Templates</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_sign_out">Sign out</string>
+    <string name="settings_contact">Contact and Credits</string>
+    <string name="settings_reminders">Reminders</string>
+    <string name="settings_categories">Categories</string>
+    <string name="settings_currency">Currency</string>
+    <string name="settings_converter">Converter</string>
+
+    <!--    Balances-->
+    <string name="balances_total">Total balance: %.2f</string>
+    <string name="add_balance_name">Name</string>
+    <string name="add_balance_amount">Amount</string>
+
+    <!--    Converter-->
+    <string name="converter_convert">Convert</string>
+    <string name="_0">0</string>
+
+    <!--    Categories-->
+    <string name="categories_expenses">Expenses</string>
+    <string name="categories_income">Income</string>
+    <string name="categories_transfer">Transfer</string>
+
+    <string name="category_name">Category name</string>
+    <string name="expense_category_name">Expense category name</string>
+    <string name="income_category_name">Income category name</string>
+
+    <!-- Theme-->
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+
+    <!--    Language-->
+    <string name="language_en">English</string>
+    <string name="language_ro">Romanian</string>
+
+    <!--    Notification-->
+    <string name="notification_content_title">Making transactions?</string>
+    <string name="notification_content_text">Don\'t forget to budget!</string>
+
+    <!--row item transaction-->
+    <string name="row_item_transaction_expense">-%.2f</string>
+    <string name="row_item_transaction_income">+%.2f</string>
+    <string name="row_item_transaction_transfer">%.2f</string>
+    <string name="row_item_transaction_expand_date">Date: %s</string>
+    <string name="row_item_transaction_expand_details">Details: %s</string>
+    <string name="row_item_transaction_expand_balance_from">From: %s</string>
+    <string name="row_item_transaction_expand_balance_to">To: %s</string>
+
+    <!--    Dialogs-->
+    <string name="dialog_delete_header">Delete</string>
+    <string name="dialog_delete_balance">Are you sure you want to delete this balance?</string>
+    <string name="dialog_delete_template">Are you sure you want to delete this template?</string>
+    <string name="dialog_delete_transaction">Are you sure you want to delete this transaction?</string>
+
+    <!--    Errors-->
+    <string name="error_invalid_email">Invalid e-mail address.</string>
+    <string name="error_invalid_password">Strong passwords have at least 6 characters and a mix of letters and numbers.</string>
+    <string name="error_invalid_balance_from">You must select the balance to withdraw from.</string>
+    <string name="error_invalid_balance_to">You must select the balance to deposit to.</string>
+    <string name="error_same_balances_transfer">Balances should be different.</string>
+    <string name="error_amount_negative">Amount should be a positive number.</string>
+    <string name="error_amount_not_available">Amount not available.</string>
+    <string name="error_invalid_name_length">Name must have between 3 and 20 characters.</string>
+    <string name="error_invalid_name_not_letters">Name must have only letters, numbers and spaces.</string>
+    <string name="error_invalid_amount">Available amount must be a number bigger than 0 and smaller than 1 million.</string>
+    <string name="error_invalid_category">You mush select a category</string>
+    <string name="target">Target</string>
+
+    <!--    Target-->
+    <string name="target_initial_balance">Initial balance: %.2f</string>
+    <string name="target_current_balance">Current balance: %.2f</string>
+    <string name="target_target_spendings">Target spendings: %s out of %s (%s)</string>
+    <string name="target_current_spendings">This month you spent %s (%s) out of %s (%s)</string>
+    <string name="change_target">Change target (percent)</string>
+    <string name="target_change_target_error">You need to choose a percentage between 0 and 100.</string>
+    <string name="external_libraries">External libraries:</string>
+</resources>

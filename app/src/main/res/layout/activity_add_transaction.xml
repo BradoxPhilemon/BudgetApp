@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32sp"
+    tools:context=".main.AddTransactionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/add_transaction_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16sp"
+            android:layout_marginBottom="16sp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/add_transaction_type_expense"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/rally_dark_green"
+                android:checked="true"
+                android:padding="8sp"
+                android:text="@string/categories_expenses"
+                android:textColor="@color/rally_dark_green" />
+
+            <RadioButton
+                android:id="@+id/add_transaction_type_income"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/rally_red"
+                android:padding="8sp"
+                android:text="@string/categories_income"
+                android:textColor="@color/rally_red" />
+
+            <RadioButton
+                android:id="@+id/add_transaction_type_transfer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/rally_blue"
+                android:padding="8sp"
+                android:text="@string/categories_transfer"
+                android:textColor="@color/rally_blue" />
+        </RadioGroup>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/text_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/add_transaction_details"
+                style="@style/text_box"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/add_transaction_details" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/text_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/add_transaction_amount"
+                style="@style/text_box"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/add_transaction_amount"
+                android:inputType="numberDecimal" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Spinner
+            android:id="@+id/add_transaction_balance_from"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/add_transaction_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/add_transaction_balance_to"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dialog" />
+
+        <Button
+            android:id="@+id/add_transaction_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/today" />
+
+        <Button
+            android:id="@+id/add_transaction_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save_transaction" />
+
+    </LinearLayout>
+</ScrollView>

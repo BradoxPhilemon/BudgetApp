@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Brad/Documents/android/MyBudget-master/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.15" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/drawable/ic_down_new.xml" value="0.15" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/drawable/ic_envelope.xml" value="0.15" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/drawable/ic_facebook.xml" value="0.15" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/drawable/ic_key.xml" value="0.15" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/drawable/ic_smartphone.xml" value="0.15" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/drawable/ic_user.xml" value="0.15" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/layout/activity_add_balance.xml" value="0.12310030395136778" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/layout/activity_add_category.xml" value="0.12310030395136778" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/layout/activity_add_transaction.xml" value="0.22" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/layout/activity_balances.xml" value="0.12310030395136778" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/layout/activity_categories.xml" value="0.12310030395136778" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/layout/activity_contact.xml" value="0.16" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/layout/activity_converter.xml" value="0.12310030395136778" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/layout/activity_currency.xml" value="0.12310030395136778" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/layout/activity_main.xml" value="0.12310030395136778" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/layout/activity_register.xml" value="0.18" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/layout/activity_settings.xml" value="0.12310030395136778" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/layout/activity_splash.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/layout/activity_target.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/layout/activity_templates.xml" value="0.12310030395136778" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/layout/fragment_bar_chart.xml" value="0.12310030395136778" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/layout/fragment_line_chart.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/layout/fragment_pie_chart.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/layout/fragment_target_chart.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/layout/row_item_balance.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/layout/row_item_category.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/layout/row_item_color.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/layout/row_item_currency.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/layout/row_item_template.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/layout/row_item_transaction.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/layout/row_item_transaction_expand.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/layout/row_spinner_simple.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/TCL/AndroidStudioProjects/MyBudget/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.253125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

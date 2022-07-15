@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16sp"
+    tools:context=".settings.TemplatesActivity">
+
+    <ImageButton
+        android:id="@+id/templates_back"
+        style="@style/image_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:src="@drawable/ic_baseline_arrow_back_24" />
+
+    <ImageButton
+        android:id="@+id/templates_add"
+        style="@style/image_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_gravity="right"
+        android:src="@drawable/ic_baseline_add_24" />
+
+    <ListView
+        android:id="@+id/templates_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:paddingBottom="32sp"
+        android:descendantFocusability="blocksDescendants" />
+
+</GridLayout>

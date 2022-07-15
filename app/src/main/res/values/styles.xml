@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="text_box" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:layout_margin">8sp</item>
+        <item name="cornerRadius">0dp</item>
+    </style>
+
+    <style name="image_button">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:padding">10sp</item>
+    </style>
+
+    <style name="settings_button" parent="Widget.AppCompat.Button.Borderless">
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">16sp</item>
+    </style>
+
+    <style name="total_balance_text">
+        <item name="android:textSize">24sp</item>
+        <item name="autoSizeTextType">uniform</item>
+    </style>
+
+    <style name="row_balance_text">
+        <item name="android:textSize">20sp</item>
+        <item name="autoSizeTextType">uniform</item>
+    </style>
+
+
+    <style name="row_transaction_category">
+        <item name="android:textSize">18sp</item>
+        <item name="autoSizeTextType">uniform</item>
+    </style>
+
+    <style name="row_transaction_details">
+        <item name="android:textSize">14sp</item>
+        <item name="autoSizeTextType">uniform</item>
+    </style>
+
+    <style name="row_transaction_amount">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="autoSizeTextType">uniform</item>
+    </style>
+
+    <style name="row_transaction_balance">
+        <item name="android:textSize">14sp</item>
+        <item name="autoSizeTextType">uniform</item>
+    </style>
+
+    <style name="convert_edit_text">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="autoSizeTextType">uniform</item>
+    </style>
+
+    <style name="convert_text_view">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="autoSizeTextType">uniform</item>
+    </style>
+
+    <style name="settings_card_text">
+        <item name="android:textSize">16sp</item>
+        <item name="autoSizeTextType">uniform</item>
+    </style>
+
+    <style name="row_item_template_text">
+        <item name="android:textSize">16sp</item>
+        <item name="autoSizeTextType">uniform</item>
+        <item name="android:textColor">@color/rally_white</item>
+    </style>
+
+    <style name="target_text">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="row_currency_text">
+        <item name="android:textColor">@color/rally_dark_green</item>
+        <item name="android:textSize">16sp</item>
+        <item name="singleLine">true</item>
+    </style>
+
+
+</resources>

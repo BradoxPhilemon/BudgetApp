@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16sp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/row_item_category_color"
+        android:src="@drawable/common_full_open_on_phone"
+        android:layout_width="25sp"
+        android:layout_height="25sp"
+        android:layout_margin="8sp"/>
+
+    <TextView
+        android:id="@+id/row_item_category_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/placeholder_category"
+        android:textSize="20sp"
+        android:layout_margin="8sp"
+        android:gravity="left|center" />
+</LinearLayout>

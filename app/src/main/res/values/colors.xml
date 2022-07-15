@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="hintColor">#808080</color>
+    <color name="black_fade">#C4000000</color>
+    <color name="rally_white">#EEEEEE</color>
+    <color name="rally_green">#1EB980</color>
+    <color name="rally_dark_green">#045D56</color>
+    <color name="rally_dark_red">#b50000</color>
+    <color name="rally_red">#FF6859</color>
+    <color name="rally_yellow">#FFCF44</color>
+    <color name="rally_purple">#B15DFF</color>
+    <color name="rally_blue">#72DEFF</color>
+    <color name="orange">#FE8100</color>
+
+    <color name="rally_dark_grey">#272731</color>
+    <color name="rally_grey">#373740</color>
+
+
+    <color name="color_0">#2E294E</color>
+    <color name="color_1">#A3BCF9</color>
+    <color name="color_2">#7796CB</color>
+    <color name="color_3">#576490</color>
+    <color name="color_4">#F55D3E</color>
+    <color name="color_5">#F7CB15</color>
+    <color name="color_6">#92DCE5</color>
+    <color name="color_7">#FFF07C</color>
+    <color name="color_8">#FF8A5B</color>
+    <color name="color_9">#DB3069</color>
+    <color name="color_10">#6BF178</color>
+    <color name="color_11">#813405</color>
+    <color name="color_12">#D45113</color>
+    <color name="color_13">#F9A03F</color>
+    <color name="color_14">#F8DDA4</color>
+    <color name="color_15">#2F4B26</color>
+    <color name="color_16">#3E885B</color>
+    <color name="color_17">#85BDA6</color>
+    <color name="color_18">#BEDCFE</color>
+    <color name="color_19">#BEFFC7</color>
+    <color name="color_20">#7A5C61</color>
+    <color name="color_21">#F7ACCF</color>
+    <color name="color_22">#EC7357</color>
+    <color name="color_23">#FDD692</color>
+    <color name="color_24">#7FB069</color>
+    <color name="color_25">#E6AA68</color>
+    <color name="color_26">#5497A7</color>
+    <color name="color_27">#A1D2CE</color>
+</resources>
